@@ -1,10 +1,10 @@
 class Translation(object):
-    START_TEXT = """Hello <b>{message.from_user.first_name}</b>,
-This is a Telegram Multipurpose Bot Which can do many functions.
+    START_TEXT = """Hi <b>{message.from_user.first_name}</b>,
+Thanks for using me.
 
 /help for more details..
 
-JOIN : https://t.me/TGBotsCollection \nFor the List of Telegram Bots
+JOIN : https://t.me/infotechIT \nFor the List of Telegram Bots
 """
     IFLONG_FILE_NAME = " Only 64 characters can be named . "
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -24,9 +24,9 @@ URL | filename | username | password"""
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = " JOIN : https://t.me/TGBotsCollection\nFor the List of Telegram Bots"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nJoin : https://t.me/TGBotsCollection\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nJoin : https://t.me/infotechIT\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@infotechIT</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -40,7 +40,7 @@ URL | filename | username | password"""
 --------
 Telegram ID : <code>{}</code>
 """
-    HELP_USER = """Hii I am <b>Multipurpose bot</b> and I can perform many tasks.
+    HELP_USER = """Hii I am <b>Aio Multipurpose bot</b> and I can perform many tasks.
     
 1.) Send url (Link|New Name with Extension).
 2.) Send Custom Thumbnail (Optional).
@@ -50,7 +50,7 @@ Telegram ID : <code>{}</code>
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
 
-JOIN : https://t.me/TGBotsCollection \n For the List of Telegram Bots"""
+JOIN : https://t.me/infotechIT \n For the List of Telegram Bots"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
@@ -69,7 +69,7 @@ JOIN : https://t.me/TGBotsCollection \n For the List of Telegram Bots"""
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @TGBotsCollectionbot \n For the list of Telegram bots. "
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @infotechIT \n For the list of Telegram bots. "
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
